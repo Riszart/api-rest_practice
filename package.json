@@ -1,0 +1,25 @@
+{
+  "name": "api-rest_practice",
+  "version": "1.0.0",
+  "description": "proyecto de add, eliminar, ver, imagenes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riszart/api-rest_practice.git"
+  },
+  "keywords": [
+    "api-rest_practice"
+  ],
+  "author": "riszart daryl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riszart/api-rest_practice/issues"
+  },
+  "homepage": "https://github.com/Riszart/api-rest_practice#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
