@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>random image</title>
+  <link rel="stylesheet" href="style.css">
+<body>
+  <header>
+    <ul>
+      <li class="favorite-items">favorite</li>
+      <li class="epi-dog">dog</li>
+      <li class="epi-cat">cat</li>
+      <li class="add-element">add</li>
+    </ul>
+  </header>
+  <main>
+    <h1>practica sobre el uso de fetch</h1>
+    <section class="content-card__elements">
+      <h2>imagen aleatorias disponibles en el servidor</h2>
+      <section class="random-content">
+        <!--<article class="random-item">
+          <img class="random__image" src="" alt="">
+          <div class="random-data">
+            <div><p class="random__name-image"></p></div>
+            <div class="random-add"></div>
+          </div>
+        </article>-->
+      </section>
+      <div class="button-reload"> bottom</div>
+    </section>
+    <section class="favorite">
+      <h2>imagenes favoritas seleccionadas</h2>
+      <section class="favorite-content">
+        <!--<article class="favorite-item">
+          <img class="favorite__image" src="" alt="">
+          <div class="favorite-data">
+            <div><p class="favorite__name-image"></p></div>
+            <div class="favorite-remove"></div>
+          </div>
+        </article>-->
+      </section>
+    </section>
+    <section class="add-image">
+      <form id="content-form">
+      <div class="close"><div class="x"></div></div>
+        <input type="file" class="load-image-charge" name="file" required>
+        <div class="content-checck">
+          <div>
+            <input type="radio" name="animal" value="cat" id="cat-select">
+            <label for="cat-select">cat</label>
+          </div>
+          <div>
+            <input type="radio" name="animal" value="dog" id="dog-select">
+            <label for="dog-select">dog</label>
+          </div>
+        </div>
+        <div class="preview-image">
+          <img class="image-load" src="" alt="">
+        </div>
+        <button class="buton-submit" type="button" onclick="addImageServer()">enviar</button>
+      </form>
+    </section>
+    <section class="verify-show">
+      <p class="text-verify"></p>
+    </section>
+    <section class="only-favorite__animal">
+      <div class="content-all__favorite favorite-all-content">
+      </div>
+    </section>
+    <section class="wait-load">
+      <p class="wait-load__text">wait, load content</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
